@@ -1,0 +1,64 @@
+.header {
+	background: transparent;
+	display: flex;
+	height: 4.8rem;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+
+	.logoContainer {
+		display: flex;
+		flex: 1;
+		width: 7rem;
+		height: 7rem;
+	}
+
+	nav {
+		flex: 2;
+
+		ul {
+			display: flex;
+			justify-content: space-around;
+			list-style: none;
+
+			li {
+				a {
+					color: var(--black);
+					font-size: large;
+					text-decoration: none;
+				}
+
+				a:hover {
+					text-decoration: underline;
+					text-decoration-color: var(--yellow-two);
+				}
+			}
+		}
+	}
+
+	.githubIcon {
+		display: flex;
+		flex: 1;
+		width: 2.5rem;
+		height: 2.5rem;
+		justify-content: flex-end;
+		padding-right: 1rem;
+		filter: drop-shadow(0px 1px 1px var(--yellow-two));
+	}
+
+	.icons {
+		display: flex;
+		flex: 1;
+		justify-content: flex-end;
+		padding-right: 1rem;
+		img {
+			margin-left: 0.5rem;
+			width: 2.5rem;
+			height: 2.5rem;
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(100%) drop-shadow(0px 1px 1px var(--yellow-two));
+		}
+	}
+}
