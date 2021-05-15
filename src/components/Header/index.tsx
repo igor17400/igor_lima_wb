@@ -8,21 +8,28 @@ export function Header() {
 			</div>
 			<ul>
 				<li>
-					<a href='#'>About me</a>
+					<a className={styles.textNav} href='#'>
+						About me
+					</a>
 				</li>
 				<li>
-					<a href='#'>Projects</a>
+					<a className={styles.textNav} href='#'>
+						Contact
+					</a>
 				</li>
 				<li>
-					<a href='#'>Contact</a>
+					<a className={styles.textNav} href='#'>
+						Projects
+					</a>
 				</li>
+
 				<li className={styles.firstIcon}>
-					<a href='#'>
+					<a href='https://github.com/igor17400' target='_blank'>
 						<img src='/github.svg' alt='my github' />
 					</a>
 				</li>
 				<li className={styles.lastIcon}>
-					<a href='#'>
+					<a href='https://www.linkedin.com/in/igor-lima-/' target='_blank'>
 						<img src='/linkedin.svg' alt='my linkedin' />
 					</a>
 				</li>
