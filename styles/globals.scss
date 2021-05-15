@@ -59,3 +59,8 @@ h2 {
 button {
 	cursor: pointer;
 }
+
+::selection {
+	background: rgba(253, 219, 58, 0.5); /* WebKit/Blink Browsers */
+	filter: brightness(50%);
+}
